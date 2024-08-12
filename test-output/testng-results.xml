@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="16" passed="16" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[----Verifying accessibility of home button ----]]>
+    </line>
+    <line>
+      <![CDATA[----Verifying accessibility of our solution button ----]]>
+    </line>
+    <line>
+      <![CDATA[----Verifying accessibility of our solution button ----]]>
+    </line>
+    <line>
+      <![CDATA[----Verifying accessibility of our story button ----]]>
+    </line>
+    <line>
+      <![CDATA[----Verifying accessibility of our Story button ----]]>
+    </line>
+    <line>
+      <![CDATA[----Verifying accessibility of why Tendable button ----]]>
+    </line>
+    <line>
+      <![CDATA[----Verifying accessibility of why Tendable Button ----]]>
+    </line>
+    <line>
+      <![CDATA[----Verify domo button is active on the home page----]]>
+    </line>
+    <line>
+      <![CDATA[----Verify domo button is active on the our solution page----]]>
+    </line>
+    <line>
+      <![CDATA[----Verify domo button is active on the our story page----]]>
+    </line>
+    <line>
+      <![CDATA[----Verify domo button is active on the why tendable page----]]>
+    </line>
+    <line>
+      <![CDATA[----Verifying Request Demo Button is presend on home Page ----]]>
+    </line>
+    <line>
+      <![CDATA[----Verifying Request Demo Button is presend on our solution Page ----]]>
+    </line>
+    <line>
+      <![CDATA[----Verifying Request Demo Button is presend on our story Page ----]]>
+    </line>
+    <line>
+      <![CDATA[----Verifying Request Demo Button is presend on why Tendable Page ----]]>
+    </line>
+    <line>
+      <![CDATA[-------Verifing error message contact us marketing form page]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-08-12T12:32:53 IST" name="Suite" finished-at="2024-08-12T12:34:15 IST" duration-ms="81954">
+    <groups>
+    </groups>
+    <test started-at="2024-08-12T12:32:53 IST" name="Test" finished-at="2024-08-12T12:34:15 IST" duration-ms="81954">
+      <class name="tendableTestClasses.TC03_ErrorMessageValidation">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:tendableTestClasses.TC03_ErrorMessageValidation@534a5a98]" started-at="2024-08-12T12:34:01 IST" name="launchApplication" finished-at="2024-08-12T12:34:09 IST" duration-ms="7969" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method is-config="true" signature="waitBeforePageAndElementLoad()[pri:0, instance:tendableTestClasses.TC03_ErrorMessageValidation@534a5a98]" started-at="2024-08-12T12:34:09 IST" name="waitBeforePageAndElementLoad" finished-at="2024-08-12T12:34:09 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitBeforePageAndElementLoad -->
+        <test-method signature="validatingErroMessageForContactUsMarkatingFormPage()[pri:0, instance:tendableTestClasses.TC03_ErrorMessageValidation@534a5a98]" started-at="2024-08-12T12:34:09 IST" name="validatingErroMessageForContactUsMarkatingFormPage" finished-at="2024-08-12T12:34:15 IST" duration-ms="6082" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[-------Verifing error message contact us marketing form page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validatingErroMessageForContactUsMarkatingFormPage -->
+        <test-method is-config="true" signature="getStatusOfFailTest(org.testng.ITestResult)[pri:0, instance:tendableTestClasses.TC03_ErrorMessageValidation@534a5a98]" started-at="2024-08-12T12:34:15 IST" name="getStatusOfFailTest" finished-at="2024-08-12T12:34:15 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatingErroMessageForContactUsMarkatingFormPage status=SUCCESS method=TC03_ErrorMessageValidation.validatingErroMessageForContactUsMarkatingFormPage()[pri:0, instance:tendableTestClasses.TC03_ErrorMessageValidation@534a5a98] output=-------Verifing error message contact us marketing form page]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getStatusOfFailTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tendableTestClasses.TC03_ErrorMessageValidation@534a5a98]" started-at="2024-08-12T12:34:15 IST" name="tearDown" finished-at="2024-08-12T12:34:15 IST" duration-ms="256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tendableTestClasses.TC03_ErrorMessageValidation -->
+      <class name="tendableTestClasses.TC01_MenuButtonAccessibility">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:tendableTestClasses.TC01_MenuButtonAccessibility@7db12bb6]" started-at="2024-08-12T12:32:53 IST" name="launchApplication" finished-at="2024-08-12T12:33:02 IST" duration-ms="8423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method is-config="true" signature="waitBeforePageLoad()[pri:0, instance:tendableTestClasses.TC01_MenuButtonAccessibility@7db12bb6]" started-at="2024-08-12T12:33:02 IST" name="waitBeforePageLoad" finished-at="2024-08-12T12:33:02 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitBeforePageLoad -->
+        <test-method signature="verifyAccessibilityOfHomeButton()[pri:0, instance:tendableTestClasses.TC01_MenuButtonAccessibility@7db12bb6]" started-at="2024-08-12T12:33:02 IST" name="verifyAccessibilityOfHomeButton" finished-at="2024-08-12T12:33:04 IST" duration-ms="2472" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[----Verifying accessibility of home button ----]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyAccessibilityOfHomeButton -->
+        <test-method is-config="true" signature="getStatusOfFailTest(org.testng.ITestResult)[pri:0, instance:tendableTestClasses.TC01_MenuButtonAccessibility@7db12bb6]" started-at="2024-08-12T12:33:04 IST" name="getStatusOfFailTest" finished-at="2024-08-12T12:33:04 IST" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAccessibilityOfHomeButton status=SUCCESS method=TC01_MenuButtonAccessibility.verifyAccessibilityOfHomeButton()[pri:0, instance:tendableTestClasses.TC01_MenuButtonAccessibility@7db12bb6] output=----Verifying accessibility of home button ----]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getStatusOfFailTest -->
+        <test-method is-config="true" signature="waitBeforePageLoad()[pri:0, instance:tendableTestClasses.TC01_MenuButtonAccessibility@7db12bb6]" started-at="2024-08-12T12:33:04 IST" name="waitBeforePageLoad" finished-at="2024-08-12T12:33:04 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitBeforePageLoad -->
+        <test-method signature="verifyAccessibilityOfOurSolutionButton()[pri:0, instance:tendableTestClasses.TC01_MenuButtonAccessibility@7db12bb6]" started-at="2024-08-12T12:33:04 IST" name="verifyAccessibilityOfOurSolutionButton" finished-at="2024-08-12T12:33:04 IST" duration-ms="109" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[----Verifying accessibility of our solution button ----]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyAccessibilityOfOurSolutionButton -->
+        <test-method is-config="true" signature="getStatusOfFailTest(org.testng.ITestResult)[pri:0, instance:tendableTestClasses.TC01_MenuButtonAccessibility@7db12bb6]" started-at="2024-08-12T12:33:04 IST" name="getStatusOfFailTest" finished-at="2024-08-12T12:33:04 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAccessibilityOfOurSolutionButton status=SUCCESS method=TC01_MenuButtonAccessibility.verifyAccessibilityOfOurSolutionButton()[pri:0, instance:tendableTestClasses.TC01_MenuButtonAccessibility@7db12bb6] output=----Verifying accessibility of our solution button ----]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getStatusOfFailTest -->
+        <test-method is-config="true" signature="waitBeforePageLoad()[pri:0, instance:tendableTestClasses.TC01_MenuButtonAccessibility@7db12bb6]" started-at="2024-08-12T12:33:04 IST" name="waitBeforePageLoad" finished-at="2024-08-12T12:33:04 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitBeforePageLoad -->
+        <test-method signature="verifyAccessibilityOfOurSolutionButtonByStatus()[pri:0, instance:tendableTestClasses.TC01_MenuButtonAccessibility@7db12bb6]" started-at="2024-08-12T12:33:04 IST" name="verifyAccessibilityOfOurSolutionButtonByStatus" finished-at="2024-08-12T12:33:05 IST" duration-ms="313" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[----Verifying accessibility of our solution button ----]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyAccessibilityOfOurSolutionButtonByStatus -->
+        <test-method is-config="true" signature="getStatusOfFailTest(org.testng.ITestResult)[pri:0, instance:tendableTestClasses.TC01_MenuButtonAccessibility@7db12bb6]" started-at="2024-08-12T12:33:05 IST" name="getStatusOfFailTest" finished-at="2024-08-12T12:33:05 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAccessibilityOfOurSolutionButtonByStatus status=SUCCESS method=TC01_MenuButtonAccessibility.verifyAccessibilityOfOurSolutionButtonByStatus()[pri:0, instance:tendableTestClasses.TC01_MenuButtonAccessibility@7db12bb6] output=----Verifying accessibility of our solution button ----]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getStatusOfFailTest -->
+        <test-method is-config="true" signature="waitBeforePageLoad()[pri:0, instance:tendableTestClasses.TC01_MenuButtonAccessibility@7db12bb6]" started-at="2024-08-12T12:33:05 IST" name="waitBeforePageLoad" finished-at="2024-08-12T12:33:05 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitBeforePageLoad -->
+        <test-method signature="verifyAccessibilityOfOurStoryButton()[pri:0, instance:tendableTestClasses.TC01_MenuButtonAccessibility@7db12bb6]" started-at="2024-08-12T12:33:05 IST" name="verifyAccessibilityOfOurStoryButton" finished-at="2024-08-12T12:33:10 IST" duration-ms="5114" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[----Verifying accessibility of our story button ----]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyAccessibilityOfOurStoryButton -->
+        <test-method is-config="true" signature="getStatusOfFailTest(org.testng.ITestResult)[pri:0, instance:tendableTestClasses.TC01_MenuButtonAccessibility@7db12bb6]" started-at="2024-08-12T12:33:10 IST" name="getStatusOfFailTest" finished-at="2024-08-12T12:33:10 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAccessibilityOfOurStoryButton status=SUCCESS method=TC01_MenuButtonAccessibility.verifyAccessibilityOfOurStoryButton()[pri:0, instance:tendableTestClasses.TC01_MenuButtonAccessibility@7db12bb6] output=----Verifying accessibility of our story button ----]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getStatusOfFailTest -->
+        <test-method is-config="true" signature="waitBeforePageLoad()[pri:0, instance:tendableTestClasses.TC01_MenuButtonAccessibility@7db12bb6]" started-at="2024-08-12T12:33:10 IST" name="waitBeforePageLoad" finished-at="2024-08-12T12:33:10 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitBeforePageLoad -->
+        <test-method signature="verifyAccessibilityOfOurStoryButtonByStatus()[pri:0, instance:tendableTestClasses.TC01_MenuButtonAccessibility@7db12bb6]" started-at="2024-08-12T12:33:10 IST" name="verifyAccessibilityOfOurStoryButtonByStatus" finished-at="2024-08-12T12:33:15 IST" duration-ms="5685" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[----Verifying accessibility of our Story button ----]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyAccessibilityOfOurStoryButtonByStatus -->
+        <test-method is-config="true" signature="getStatusOfFailTest(org.testng.ITestResult)[pri:0, instance:tendableTestClasses.TC01_MenuButtonAccessibility@7db12bb6]" started-at="2024-08-12T12:33:15 IST" name="getStatusOfFailTest" finished-at="2024-08-12T12:33:15 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAccessibilityOfOurStoryButtonByStatus status=SUCCESS method=TC01_MenuButtonAccessibility.verifyAccessibilityOfOurStoryButtonByStatus()[pri:0, instance:tendableTestClasses.TC01_MenuButtonAccessibility@7db12bb6] output=----Verifying accessibility of our Story button ----]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getStatusOfFailTest -->
+        <test-method is-config="true" signature="waitBeforePageLoad()[pri:0, instance:tendableTestClasses.TC01_MenuButtonAccessibility@7db12bb6]" started-at="2024-08-12T12:33:15 IST" name="waitBeforePageLoad" finished-at="2024-08-12T12:33:15 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitBeforePageLoad -->
+        <test-method signature="verifyAccessibilityOfWhyTendableButton()[pri:0, instance:tendableTestClasses.TC01_MenuButtonAccessibility@7db12bb6]" started-at="2024-08-12T12:33:15 IST" name="verifyAccessibilityOfWhyTendableButton" finished-at="2024-08-12T12:33:19 IST" duration-ms="3783" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[----Verifying accessibility of why Tendable button ----]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyAccessibilityOfWhyTendableButton -->
+        <test-method is-config="true" signature="getStatusOfFailTest(org.testng.ITestResult)[pri:0, instance:tendableTestClasses.TC01_MenuButtonAccessibility@7db12bb6]" started-at="2024-08-12T12:33:19 IST" name="getStatusOfFailTest" finished-at="2024-08-12T12:33:19 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAccessibilityOfWhyTendableButton status=SUCCESS method=TC01_MenuButtonAccessibility.verifyAccessibilityOfWhyTendableButton()[pri:0, instance:tendableTestClasses.TC01_MenuButtonAccessibility@7db12bb6] output=----Verifying accessibility of why Tendable button ----]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getStatusOfFailTest -->
+        <test-method is-config="true" signature="waitBeforePageLoad()[pri:0, instance:tendableTestClasses.TC01_MenuButtonAccessibility@7db12bb6]" started-at="2024-08-12T12:33:19 IST" name="waitBeforePageLoad" finished-at="2024-08-12T12:33:19 IST" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitBeforePageLoad -->
+        <test-method signature="verifyAccessibilityOfWhyTendableButtonByStatus()[pri:0, instance:tendableTestClasses.TC01_MenuButtonAccessibility@7db12bb6]" started-at="2024-08-12T12:33:19 IST" name="verifyAccessibilityOfWhyTendableButtonByStatus" finished-at="2024-08-12T12:33:24 IST" duration-ms="5179" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[----Verifying accessibility of why Tendable Button ----]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyAccessibilityOfWhyTendableButtonByStatus -->
+        <test-method is-config="true" signature="getStatusOfFailTest(org.testng.ITestResult)[pri:0, instance:tendableTestClasses.TC01_MenuButtonAccessibility@7db12bb6]" started-at="2024-08-12T12:33:24 IST" name="getStatusOfFailTest" finished-at="2024-08-12T12:33:24 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAccessibilityOfWhyTendableButtonByStatus status=SUCCESS method=TC01_MenuButtonAccessibility.verifyAccessibilityOfWhyTendableButtonByStatus()[pri:0, instance:tendableTestClasses.TC01_MenuButtonAccessibility@7db12bb6] output=----Verifying accessibility of why Tendable Button ----]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getStatusOfFailTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tendableTestClasses.TC01_MenuButtonAccessibility@7db12bb6]" started-at="2024-08-12T12:33:24 IST" name="tearDown" finished-at="2024-08-12T12:33:25 IST" duration-ms="283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tendableTestClasses.TC01_MenuButtonAccessibility -->
+      <class name="tendableTestClasses.TC02_RequestDemoButton">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:tendableTestClasses.TC02_RequestDemoButton@5a45133e]" started-at="2024-08-12T12:33:25 IST" name="launchApplication" finished-at="2024-08-12T12:33:31 IST" duration-ms="6580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method is-config="true" signature="waitBeforePageLoad()[pri:0, instance:tendableTestClasses.TC02_RequestDemoButton@5a45133e]" started-at="2024-08-12T12:33:31 IST" name="waitBeforePageLoad" finished-at="2024-08-12T12:33:31 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitBeforePageLoad -->
+        <test-method signature="VerifyDemoButtonIsActiveOnHomePage()[pri:0, instance:tendableTestClasses.TC02_RequestDemoButton@5a45133e]" started-at="2024-08-12T12:33:31 IST" name="VerifyDemoButtonIsActiveOnHomePage" finished-at="2024-08-12T12:33:37 IST" duration-ms="5637" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[----Verify domo button is active on the home page----]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyDemoButtonIsActiveOnHomePage -->
+        <test-method is-config="true" signature="getStatusOfFailTest(org.testng.ITestResult)[pri:0, instance:tendableTestClasses.TC02_RequestDemoButton@5a45133e]" started-at="2024-08-12T12:33:37 IST" name="getStatusOfFailTest" finished-at="2024-08-12T12:33:37 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyDemoButtonIsActiveOnHomePage status=SUCCESS method=TC02_RequestDemoButton.VerifyDemoButtonIsActiveOnHomePage()[pri:0, instance:tendableTestClasses.TC02_RequestDemoButton@5a45133e] output=----Verify domo button is active on the home page----]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getStatusOfFailTest -->
+        <test-method is-config="true" signature="waitBeforePageLoad()[pri:0, instance:tendableTestClasses.TC02_RequestDemoButton@5a45133e]" started-at="2024-08-12T12:33:37 IST" name="waitBeforePageLoad" finished-at="2024-08-12T12:33:37 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitBeforePageLoad -->
+        <test-method signature="VerifyDemoButtonIsActiveOnOurSolutionPage()[pri:0, instance:tendableTestClasses.TC02_RequestDemoButton@5a45133e]" started-at="2024-08-12T12:33:37 IST" name="VerifyDemoButtonIsActiveOnOurSolutionPage" finished-at="2024-08-12T12:33:39 IST" duration-ms="2099" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[----Verify domo button is active on the our solution page----]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyDemoButtonIsActiveOnOurSolutionPage -->
+        <test-method is-config="true" signature="getStatusOfFailTest(org.testng.ITestResult)[pri:0, instance:tendableTestClasses.TC02_RequestDemoButton@5a45133e]" started-at="2024-08-12T12:33:39 IST" name="getStatusOfFailTest" finished-at="2024-08-12T12:33:39 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyDemoButtonIsActiveOnOurSolutionPage status=SUCCESS method=TC02_RequestDemoButton.VerifyDemoButtonIsActiveOnOurSolutionPage()[pri:0, instance:tendableTestClasses.TC02_RequestDemoButton@5a45133e] output=----Verify domo button is active on the our solution page----]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getStatusOfFailTest -->
+        <test-method is-config="true" signature="waitBeforePageLoad()[pri:0, instance:tendableTestClasses.TC02_RequestDemoButton@5a45133e]" started-at="2024-08-12T12:33:39 IST" name="waitBeforePageLoad" finished-at="2024-08-12T12:33:39 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitBeforePageLoad -->
+        <test-method signature="VerifyDemoButtonIsActiveOnOurStoryPage()[pri:0, instance:tendableTestClasses.TC02_RequestDemoButton@5a45133e]" started-at="2024-08-12T12:33:39 IST" name="VerifyDemoButtonIsActiveOnOurStoryPage" finished-at="2024-08-12T12:33:47 IST" duration-ms="8060" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[----Verify domo button is active on the our story page----]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyDemoButtonIsActiveOnOurStoryPage -->
+        <test-method is-config="true" signature="getStatusOfFailTest(org.testng.ITestResult)[pri:0, instance:tendableTestClasses.TC02_RequestDemoButton@5a45133e]" started-at="2024-08-12T12:33:47 IST" name="getStatusOfFailTest" finished-at="2024-08-12T12:33:47 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyDemoButtonIsActiveOnOurStoryPage status=SUCCESS method=TC02_RequestDemoButton.VerifyDemoButtonIsActiveOnOurStoryPage()[pri:0, instance:tendableTestClasses.TC02_RequestDemoButton@5a45133e] output=----Verify domo button is active on the our story page----]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getStatusOfFailTest -->
+        <test-method is-config="true" signature="waitBeforePageLoad()[pri:0, instance:tendableTestClasses.TC02_RequestDemoButton@5a45133e]" started-at="2024-08-12T12:33:47 IST" name="waitBeforePageLoad" finished-at="2024-08-12T12:33:47 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitBeforePageLoad -->
+        <test-method signature="VerifyDemoButtonIsActiveOnWhyTendablePage()[pri:0, instance:tendableTestClasses.TC02_RequestDemoButton@5a45133e]" started-at="2024-08-12T12:33:47 IST" name="VerifyDemoButtonIsActiveOnWhyTendablePage" finished-at="2024-08-12T12:33:54 IST" duration-ms="7068" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[----Verify domo button is active on the why tendable page----]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyDemoButtonIsActiveOnWhyTendablePage -->
+        <test-method is-config="true" signature="getStatusOfFailTest(org.testng.ITestResult)[pri:0, instance:tendableTestClasses.TC02_RequestDemoButton@5a45133e]" started-at="2024-08-12T12:33:54 IST" name="getStatusOfFailTest" finished-at="2024-08-12T12:33:54 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyDemoButtonIsActiveOnWhyTendablePage status=SUCCESS method=TC02_RequestDemoButton.VerifyDemoButtonIsActiveOnWhyTendablePage()[pri:0, instance:tendableTestClasses.TC02_RequestDemoButton@5a45133e] output=----Verify domo button is active on the why tendable page----]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getStatusOfFailTest -->
+        <test-method is-config="true" signature="waitBeforePageLoad()[pri:0, instance:tendableTestClasses.TC02_RequestDemoButton@5a45133e]" started-at="2024-08-12T12:33:54 IST" name="waitBeforePageLoad" finished-at="2024-08-12T12:33:54 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitBeforePageLoad -->
+        <test-method signature="VerifyDemoButtonStatusOnHomePage()[pri:0, instance:tendableTestClasses.TC02_RequestDemoButton@5a45133e]" started-at="2024-08-12T12:33:54 IST" name="VerifyDemoButtonStatusOnHomePage" finished-at="2024-08-12T12:33:56 IST" duration-ms="2291" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[----Verifying Request Demo Button is presend on home Page ----]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyDemoButtonStatusOnHomePage -->
+        <test-method is-config="true" signature="getStatusOfFailTest(org.testng.ITestResult)[pri:0, instance:tendableTestClasses.TC02_RequestDemoButton@5a45133e]" started-at="2024-08-12T12:33:56 IST" name="getStatusOfFailTest" finished-at="2024-08-12T12:33:56 IST" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyDemoButtonStatusOnHomePage status=SUCCESS method=TC02_RequestDemoButton.VerifyDemoButtonStatusOnHomePage()[pri:0, instance:tendableTestClasses.TC02_RequestDemoButton@5a45133e] output=----Verifying Request Demo Button is presend on home Page ----]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getStatusOfFailTest -->
+        <test-method is-config="true" signature="waitBeforePageLoad()[pri:0, instance:tendableTestClasses.TC02_RequestDemoButton@5a45133e]" started-at="2024-08-12T12:33:56 IST" name="waitBeforePageLoad" finished-at="2024-08-12T12:33:57 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitBeforePageLoad -->
+        <test-method signature="VerifyDemoButtonStatusOnOurSolutionPage()[pri:0, instance:tendableTestClasses.TC02_RequestDemoButton@5a45133e]" started-at="2024-08-12T12:33:57 IST" name="VerifyDemoButtonStatusOnOurSolutionPage" finished-at="2024-08-12T12:33:57 IST" duration-ms="163" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[----Verifying Request Demo Button is presend on our solution Page ----]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyDemoButtonStatusOnOurSolutionPage -->
+        <test-method is-config="true" signature="getStatusOfFailTest(org.testng.ITestResult)[pri:0, instance:tendableTestClasses.TC02_RequestDemoButton@5a45133e]" started-at="2024-08-12T12:33:57 IST" name="getStatusOfFailTest" finished-at="2024-08-12T12:33:57 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyDemoButtonStatusOnOurSolutionPage status=SUCCESS method=TC02_RequestDemoButton.VerifyDemoButtonStatusOnOurSolutionPage()[pri:0, instance:tendableTestClasses.TC02_RequestDemoButton@5a45133e] output=----Verifying Request Demo Button is presend on our solution Page ----]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getStatusOfFailTest -->
+        <test-method is-config="true" signature="waitBeforePageLoad()[pri:0, instance:tendableTestClasses.TC02_RequestDemoButton@5a45133e]" started-at="2024-08-12T12:33:57 IST" name="waitBeforePageLoad" finished-at="2024-08-12T12:33:57 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitBeforePageLoad -->
+        <test-method signature="VerifyDemoButtonStatusOnOurStoryPage()[pri:0, instance:tendableTestClasses.TC02_RequestDemoButton@5a45133e]" started-at="2024-08-12T12:33:57 IST" name="VerifyDemoButtonStatusOnOurStoryPage" finished-at="2024-08-12T12:33:59 IST" duration-ms="2070" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[----Verifying Request Demo Button is presend on our story Page ----]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyDemoButtonStatusOnOurStoryPage -->
+        <test-method is-config="true" signature="getStatusOfFailTest(org.testng.ITestResult)[pri:0, instance:tendableTestClasses.TC02_RequestDemoButton@5a45133e]" started-at="2024-08-12T12:33:59 IST" name="getStatusOfFailTest" finished-at="2024-08-12T12:33:59 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyDemoButtonStatusOnOurStoryPage status=SUCCESS method=TC02_RequestDemoButton.VerifyDemoButtonStatusOnOurStoryPage()[pri:0, instance:tendableTestClasses.TC02_RequestDemoButton@5a45133e] output=----Verifying Request Demo Button is presend on our story Page ----]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getStatusOfFailTest -->
+        <test-method is-config="true" signature="waitBeforePageLoad()[pri:0, instance:tendableTestClasses.TC02_RequestDemoButton@5a45133e]" started-at="2024-08-12T12:33:59 IST" name="waitBeforePageLoad" finished-at="2024-08-12T12:33:59 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitBeforePageLoad -->
+        <test-method signature="VerifyDemoButtonStatusOnWhyTendablePage()[pri:0, instance:tendableTestClasses.TC02_RequestDemoButton@5a45133e]" started-at="2024-08-12T12:33:59 IST" name="VerifyDemoButtonStatusOnWhyTendablePage" finished-at="2024-08-12T12:34:00 IST" duration-ms="1673" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[----Verifying Request Demo Button is presend on why Tendable Page ----]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyDemoButtonStatusOnWhyTendablePage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tendableTestClasses.TC02_RequestDemoButton@5a45133e]" started-at="2024-08-12T12:34:00 IST" name="tearDown" finished-at="2024-08-12T12:34:01 IST" duration-ms="345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="getStatusOfFailTest(org.testng.ITestResult)[pri:0, instance:tendableTestClasses.TC02_RequestDemoButton@5a45133e]" started-at="2024-08-12T12:34:00 IST" name="getStatusOfFailTest" finished-at="2024-08-12T12:34:00 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyDemoButtonStatusOnWhyTendablePage status=SUCCESS method=TC02_RequestDemoButton.VerifyDemoButtonStatusOnWhyTendablePage()[pri:0, instance:tendableTestClasses.TC02_RequestDemoButton@5a45133e] output=----Verifying Request Demo Button is presend on why Tendable Page ----]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getStatusOfFailTest -->
+      </class> <!-- tendableTestClasses.TC02_RequestDemoButton -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
