@@ -2,7 +2,7 @@
 
 Project Title: Tendable.com
 
-Description: This project automates testing of Tendable Application using the selenium with java , testNG data driven framework design pattern. It leverages TestNG for test execution. I have used data driven framework i have added the way to read data from xml add properties file. I have store the test date inside properties file and read it from there the test file. Designed POM classes as well .All the dependencies are stored inside the POM.xml. Suppose if the script get fail in that case it will captusres the screenshot of the page where it fails.
+Description: This project automates testing of Tendable Application using the selenium with java , testNG data driven framework design pattern. It leverages TestNG for test execution. I have used data driven framework i have added the way to read data from xml add properties file. I have store the test date inside properties file and read it from there the test file. Designed POM classes as well .All the dependencies are stored inside the pom.xml. Suppose if the script get fail in that case it will captusres the screenshot of the page where it fails.
 
 Key Features:
 
